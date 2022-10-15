@@ -1,0 +1,13 @@
+body {
+    margin: 0;
+    overflow: hidden;
+    
+}
+
+.pantalla {
+    box-shadow: -0px -0px 3px .3px #767575ad,inset -2px -2px 5px .3px #6d6c6c,inset 2px 2px 5px .3px #6b6a6a
+
+    ;
+    overflow-x: auto;
+    min-height: 10%;
+}
