@@ -5,9 +5,52 @@ body {
 }
 
 .pantalla {
-    box-shadow: -0px -0px 3px .3px #767575ad,inset -2px -2px 5px .3px #6d6c6c,inset 2px 2px 5px .3px #6b6a6a
+    box-shadow: -0px -0px 3px .3px #2d2d2dad,inset -2px -2px 5px .3px #6d6c6c,inset 2px 2px 5px .3px #6b6a6a
 
     ;
     overflow-x: auto;
     min-height: 10%;
+}
+.cuerpo {
+   
+     
+}
+@keyframes cuerpo {
+    0% {
+        box-shadow: 5px 5px 25px 2px ,inset 3px 5px 10px #ffffff ;
+    }
+    
+    25% {
+        box-shadow: -5px 8px 25px 2px ,inset -3px 5px 10px #ffffff ;
+    }
+   
+    50% {
+        box-shadow: -8px -5px 25px 2px ,inset -3px -5px 10px #ffffff ;
+    }
+   
+    75% {
+        box-shadow: 5px -8px 25px 2px ,inset 3px -5px 10px #ffffff ;
+    }
+    
+    100% {
+        box-shadow: 5px 5px 25px 2px ,inset 3px 5px 10px #ffffff 
+    }
+}
+
+@keyframes buttons {
+    0% {
+        box-shadow: 0px 0px 2px .2px #292F36,inset 1px 2px 8px #ffffff;
+    }
+    25% {
+        box-shadow: 0px 0px 2px .2px #292F36,inset -1px 2px 8px #ffffff;
+    }
+    50% {
+        box-shadow: 0px 0px 2px .2px #292F36,inset -1px -2px 8px #ffffff;
+    }
+    75% {
+        box-shadow: 0px 0px 2px .2px #292F36,inset 1px -2px 8px #ffffff;
+    }
+    100% {
+        box-shadow: 0px 0px 2px .2px #292F36,inset 1px 2px 8px #ffffff;
+    }
 }
