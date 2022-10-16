@@ -118,7 +118,7 @@ function Calculadora(data = {color: new Color(["#4ECDC4","#FFFFFF","#292F36","#F
     this.b_divi = new Bottons({value: "/",width: 21,height: 12,color:{c_1: this.data.color.c_1,c_2: this.data.color.c_2},margin:{top:3,left:3}});
     this.b_mpc = new Bottons({value: "*",width: 21,height: 22,color:{c_1: this.data.color.c_1,c_2: this.data.color.c_2},margin:{top:3,left:3}});
     this.b_punto = new Bottons({value: ".",width: 21,height: 22,color:{c_1: this.data.color.c_1,c_2: this.data.color.c_2},margin:{top:3,left:3}});
-    this.b_igual.button.style.borderRadius = "4px 4px 25px 4px";
+    this.b_mpc.button.style.borderRadius = "4px 4px 25px 4px";
     this.b_sum.button.style.fontSize = "15px";
     this.b_rest.button.style.fontSize = "15px";
     this.b_divi.button.style.fontSize = "15px";
@@ -161,9 +161,9 @@ Calculadora.prototype.Crate = function() {
     this.fondo_abajo.appendChild(this.b_1.button);
     this.fondo_abajo.appendChild(this.b_divi.button);
     this.fondo_abajo.appendChild(this.b_0.button);
-    this.fondo_abajo.appendChild(this.b_mpc.button);
     this.fondo_abajo.appendChild(this.b_punto.button);
     this.fondo_abajo.appendChild(this.b_igual.button);
+    this.fondo_abajo.appendChild(this.b_mpc.button);
 
 }
 
